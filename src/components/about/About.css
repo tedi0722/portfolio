@@ -6,7 +6,7 @@
 .about-wrapper {
     display: flex;
     align-items: center;
-    height: 500px;
+    min-height: calc(100vh);
 }
 
 .bio-wrapper {

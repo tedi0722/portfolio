@@ -5,12 +5,9 @@ import './Resume.css';
 export default class Resume extends Component {
     render () {
         return (
+            <div>
+                <h2 className="text-center">Resume</h2>
             <Grid className="resume-wrapper">
-                <Row>
-                    <Col xs={12}>
-                    <h2 className="resume-title">Resume</h2>
-                    </Col>
-                </Row>
                 <Row>
                     <Col xs={12} sm={4}>
                     <h4>Programming Languages:</h4>
@@ -92,6 +89,10 @@ export default class Resume extends Component {
                     </Col>
                 </Row>
             </Grid>
+            <Grid className="additional-info">
+    
+            </Grid>
+            </div>
         )
     }
 }

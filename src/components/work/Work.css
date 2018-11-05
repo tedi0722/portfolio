@@ -6,7 +6,7 @@
 }
 
 .work-wrapper {
-    height: 500px;
+    min-height: calc(100vh)
 }
 
 .project-card:hover {

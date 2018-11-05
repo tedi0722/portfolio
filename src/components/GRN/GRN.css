@@ -17,9 +17,6 @@ h2 {
     margin-bottom: 30px;
 }
 
-ol.carousel-indicators {
-}
-
 .view-site-btn {
     background: none;
     padding: 15px 20px;
@@ -40,6 +37,6 @@ ol.carousel-indicators {
 }
 
 .project-info {
-    height: 500px;
     padding: 20px;
+    min-height: calc(100vh);
 }

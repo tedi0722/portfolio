@@ -5,7 +5,7 @@ import './Footer.css';
 export default class Footer extends Component {
     render () {
         return (
-            <footer>
+            <footer className="footer">
                 <div className="social-links">
                 <p>Follow me on social media:</p>
                 <a href="https://github.com/tedi0722" target="_blank" rel="noopener noreferrer">

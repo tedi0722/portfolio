@@ -4,6 +4,11 @@
     text-align: center;
     list-style-type: none;
     width: 960px;
+    min-height: calc(100vh);
+}
+
+.additional-info {
+    min-height: calc(50vh);
 }
 
 @media (max-width: 1000px) {

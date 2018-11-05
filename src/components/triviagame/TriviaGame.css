@@ -40,6 +40,6 @@ ol.carousel-indicators {
 }
 
 .project-info {
-    height: 500px;
     padding: 20px;
+    min-height: calc(100vh);
 }

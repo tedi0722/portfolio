@@ -34,5 +34,5 @@ form {
 }
 
 .contact-wrapper {
-    height: 500px;
+    min-height: calc(100vh);
 }

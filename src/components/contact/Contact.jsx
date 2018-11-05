@@ -6,6 +6,7 @@ export default class Contact extends Component {
     render () {
         return (
             <Grid className="contact-wrapper">
+                <h2 className="text-center">Contact</h2>
                 <Row>
                     <Col xs={12}>
                     <p className="contact-intro">Please don't hesitate to contact me if you have any questions.</p>
