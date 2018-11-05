@@ -1,0 +1,34 @@
+form {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-input,
+.contact-textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.send-btn {
+    background: none;
+    padding: 15px 20px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 10px 10px 20px lightgrey;
+    border-radius: 0px;
+    border: 1px solid lightgrey;
+    margin: 20px;
+}
+
+.send-btn:hover {
+    background: linear-gradient(135deg, #606c88, #3f4c6b);
+    color: #fff;
+    transform: scale(1.03, 1.03);
+    box-shadow: 10px 20px 40px grey;
+    border: none;
+}
+
+.contact-intro {
+    text-align: center;
+    font-size: 16px;
+}

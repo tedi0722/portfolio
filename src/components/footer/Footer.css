@@ -1,0 +1,25 @@
+.social-links i {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.social-links a {
+    color: white;
+}
+
+.social-links {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links p {
+    margin: 0;
+    padding: 10px 5px 5px 5px;
+    color: white;
+}
+
+footer {
+margin-top: 200px;
+}
