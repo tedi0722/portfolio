@@ -8,7 +8,7 @@ export default class Contact extends Component {
             <Grid>
                 <Row>
                     <Col xs={12}>
-                    <p className="contact-intro">Please don't desitate to contact me if you have any questions.</p>
+                    <p className="contact-intro">Please don't hesitate to contact me if you have any questions.</p>
                     <p className="contact-intro">You can use the form below, or email me directly at <a href="mailto:tedi0722@gmail.com">tedi0722@gmail.com.</a></p>
                     <form method="POST" action="https://formspree.io/tedi0722@gmail.com">
                     <input className="contact-input" type="text" name="name" placeholder="Your Name"></input>

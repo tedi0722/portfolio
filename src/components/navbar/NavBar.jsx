@@ -19,10 +19,13 @@ export default class NavBar extends Component {
                         <NavItem eventKey={1} componentClass={Link} className="tab" href="/" to="/">
                             Work
                         </NavItem>
-                        <NavItem eventKey={2} componentClass={Link} className="tab" href="/" to="/about">
+                        <NavItem eventKey={2} componentClass={Link} className="tab" href="/" to="/About">
                             About
                         </NavItem>
-                        <NavItem eventKey={3} componentClass={Link} className="tab" href="/" to="/contact">
+                        <NavItem eventKey={3} componentClass={Link} className="tab" href="/" to="/Resume">
+                            Resume
+                        </NavItem>
+                        <NavItem eventKey={4} componentClass={Link} className="tab" href="/" to="/Contact">
                             Contact
                         </NavItem>
                     </Nav>

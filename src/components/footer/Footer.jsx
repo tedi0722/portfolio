@@ -8,13 +8,13 @@ export default class Footer extends Component {
             <footer>
                 <div className="social-links">
                 <p>Follow me on social media:</p>
-                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tedi0722" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
                 <a href="http://google.com" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
-                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/tsi.jpg/" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-instagram" aria-hidden="true" />
                 </a>
                 </div>

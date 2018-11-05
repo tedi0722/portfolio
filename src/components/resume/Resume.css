@@ -1,0 +1,14 @@
+.resume-wrapper {
+    border: 1px solid grey;
+    padding: 20px;
+    text-align: center;
+    list-style-type: none;
+    width: 960px;
+}
+
+@media (max-width: 1000px) {
+    .resume-wrapper {
+        max-width: 100%;
+    }
+}
+
