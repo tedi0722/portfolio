@@ -5,7 +5,7 @@ import './Contact.css';
 export default class Contact extends Component {
     render () {
         return (
-            <Grid>
+            <Grid className="contact-wrapper">
                 <Row>
                     <Col xs={12}>
                     <p className="contact-intro">Please don't hesitate to contact me if you have any questions.</p>

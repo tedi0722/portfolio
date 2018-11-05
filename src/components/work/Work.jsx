@@ -7,7 +7,7 @@ import './Work.css'
 export default class Work extends Component {
     render () {
         return (
-            <Grid>
+            <Grid className="work-wrapper">
             <Row>
             <Col xs={12} md={4}>
             <Thumbnail href="/GingerRedNaturals" className="project-card" src="assets/images/GRNLogo.jpg" alt="242x200">

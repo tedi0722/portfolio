@@ -6,6 +6,7 @@
 .about-wrapper {
     display: flex;
     align-items: center;
+    height: 500px;
 }
 
 .bio-wrapper {
@@ -20,7 +21,6 @@
     transition: 0.3s ease-in-out;
     box-shadow: 10px 10px 20px lightgrey;
     border-radius: 0px;
-    
 }
 
 .view-work-btn:hover {

@@ -5,6 +5,10 @@
 
 }
 
+.work-wrapper {
+    height: 500px;
+}
+
 .project-card:hover {
     cursor: pointer;
     transform: scale(1.03, 1.03);
