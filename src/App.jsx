@@ -10,10 +10,8 @@ import GRN from './components/GRN/GRN';
 import TriviaGame from './components/triviagame/TriviaGame';
 import Footer from './components/footer/Footer';
 
-class App extends Component {
-  render() {
-    return (
-      <Router>
+const App = () => (
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           <NavBar />
           <Route exact path="/" component={Work} />
@@ -26,7 +24,5 @@ class App extends Component {
         </div>
       </Router>
     );
-  }
-}
 
 export default App;
