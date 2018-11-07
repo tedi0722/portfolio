@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Carousel, Grid, Row, Col, Button } from 'react-bootstrap';
 import './GRN.css';
+import GRNHome from '../../assets/images/GRNHome.jpg';
+import GRNOrder from '../../assets/images/GRNOrder.jpg';
+import GRNWeatherNews from '../../assets/images/GRNWeatherNews.jpg';
 
 export default class GRN extends Component {
     render () {
@@ -9,13 +12,13 @@ export default class GRN extends Component {
                 <h2 className="text-center">GingerRed Naturals</h2>
                 <Carousel>
                     <Carousel.Item>
-                        <img width={900} height={500} alt="900x500" src="/assets/images/GRNHome.jpg" />
+                        <img width={900} height={500} alt="900x500" src={ GRNHome } />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img width={900} height={500} alt="900x500" src="/assets/images/GRNOrder.jpg" />
+                        <img width={900} height={500} alt="900x500" src={ GRNOrder } />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img width={900} height={500} alt="900x500" src="/assets/images/GRNWeatherNews.jpg" />
+                        <img width={900} height={500} alt="900x500" src={ GRNWeatherNews } />
                     </Carousel.Item>
                 </Carousel>;
                 <Grid className="project-info">
