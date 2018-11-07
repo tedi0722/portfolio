@@ -5,7 +5,7 @@
 
 .about-wrapper {
     display: flex;
-    align-items: center;
+    align-items: start;
     min-height: calc(100vh);
 }
 
