@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
 import './About.css'
-import ProfilePic from '../../assets/images/IMG_4399.JPG';
+import ProfilePic from '../../assets/images/IMG_7244.JPG';
 
 export default class About extends Component {
     render () {
@@ -10,7 +10,7 @@ export default class About extends Component {
             <Grid>
                 <Jumbotron className="text-center">
                     <h2>Hello, I'm Ted,</h2>
-                    <h2>front-end developer.</h2>
+                    <h2>full-stack developer.</h2>
                     <h2>Nice to meet you!</h2>
                     <br></br>
                     <Link to="/">

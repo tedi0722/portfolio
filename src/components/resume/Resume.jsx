@@ -9,31 +9,20 @@ export default class Resume extends Component {
                 <h2 className="text-center">Resume</h2>
             <Grid className="resume-wrapper">
                 <Row>
-                    <Col xs={12} sm={4}>
-                    <h4>Programming Languages:</h4>
+                    <Col xs={12} sm={6}>
+                    <h3>Technologies:</h3>
                         <ul className="list-unstyled">
                             <li>HTML 5</li>
                             <li>CSS 3</li>
                             <li>JavaScript</li>
-                            <li>ES6</li>
                             <li>ReactJS</li>
                             <li>NodeJS</li>
-                        </ul>
-                    </Col>
-                    <Col xs={12} sm={4}>
-                    <h4>Dev Tools:</h4>
-                        <ul className="list-unstyled">
                             <li>WordPress</li>
-                            <li>Bootstrap</li>
-                            <li>jQuery</li>
-                            <li>AJAX</li>
-                            <li>JSON</li>
                             <li>Git</li>
-                            <li>VSC</li>
                         </ul>
                     </Col>
-                    <Col xs={12} sm={4}>
-                    <h4>Other Skills:</h4>
+                    <Col xs={12} sm={6}>
+                    <h3>Other Skills:</h3>
                         <ul className="list-unstyled">
                             <li>Microsoft Word</li>
                             <li>Microsoft Powerpoint</li>
@@ -45,7 +34,7 @@ export default class Resume extends Component {
                 </Row>
                 <Row>
                     <Col xs={12}>
-                    <h2 className="resume-title">Experience</h2>
+                    <h3 className="resume-title">Experience</h3>
                     </Col>
                     <Col xs={12}>
                     <h4>Front-end Developer | GingerRed Naturals</h4>
