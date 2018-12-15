@@ -3,6 +3,10 @@
     padding: 20px;
 }
 
+.profile-pic-wrapper {
+    padding: 20px;
+}
+
 .about-wrapper {
     display: flex;
     align-items: start;
@@ -29,6 +33,10 @@
     transform: scale(1.03, 1.03);
     box-shadow: 10px 20px 40px grey;
     border: none;
+}
+
+p {
+    margin-bottom: 20px;
 }
 
 div.text-center.jumbotron {
